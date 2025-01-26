@@ -1,0 +1,78 @@
+<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
+<html lang="en"> <!-- Starts the HTML document and sets the language to English -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport for responsive design -->
+    <title>Calendar</title> <!-- Sets the title of the webpage that appears in the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links the external CSS file for styling -->
+</head>
+<body>
+    <header> <!-- Defines the header section of the webpage -->
+        <h1>Calendar</h1> <!-- Main heading of the webpage -->
+    </header>
+
+    <div class="calendar-controls"> <!-- Container for calendar navigation controls -->
+        <button id="prev-month">&lt; Previous</button> <!-- Button to navigate to the previous month -->
+        <h2 id="current-month">January 2025</h2> <!-- Displays the current month and year -->
+        <button id="next-month">Next &gt;</button> <!-- Button to navigate to the next month -->
+    </div>
+
+    <div class="calendar-grid"> <!-- Container for the calendar grid -->
+        <div class="calendar-header">Sun</div> <!-- Header for Sunday -->
+        <div class="calendar-header">Mon</div> <!-- Header for Monday -->
+        <div class="calendar-header">Tue</div> <!-- Header for Tuesday -->
+        <div class="calendar-header">Wed</div> <!-- Header for Wednesday -->
+        <div class="calendar-header">Thu</div> <!-- Header for Thursday -->
+        <div class="calendar-header">Fri</div> <!-- Header for Friday -->
+        <div class="calendar-header">Sat</div> <!-- Header for Saturday -->
+
+        <div class="calendar-day inactive">31</div> <!-- Day cell for the last day of the previous month (inactive) -->
+        <div class="calendar-day">1</div> <!-- Day cell for the 1st of the month -->
+        <div class="calendar-day">2</div> <!-- Day cell for the 2nd of the month -->
+        <div class="calendar-day">3</div> <!-- Day cell for the 3rd of the month -->
+        <div class="calendar-day">4</div> <!-- Day cell for the 4th of the month -->
+        <div class="calendar-day">5</div> <!-- Day cell for the 5th of the month -->
+        <div class="calendar-day">6</div> <!-- Day cell for the 6th of the month -->
+        <div class="calendar-day">7</div> <!-- Day cell for the 7th of the month -->
+        <div class="calendar-day">8</div> <!-- Day cell for the 8th of the month -->
+        <div class="calendar-day">9</div> <!-- Day cell for the 9th of the month -->
+        <div class="calendar-day">10</div> <!-- Day cell for the 10th of the month -->
+        <div class="calendar-day">11</div> <!-- Day cell for the 11th of the month -->
+        <div class="calendar-day">12</div> <!-- Day cell for the 12th of the month -->
+        <div class="calendar-day">13</div> <!-- Day cell for the 13th of the month -->
+        <div class="calendar-day">14</div> <!-- Day cell for the 14th of the month -->
+        <div class="calendar-day">15</div> <!-- Day cell for the 15th of the month -->
+        <div class="calendar-day">16</div> <!-- Day cell for the 16th of the month -->
+        <div class="calendar-day">17</div> <!-- Day cell for the 17th of the month -->
+        <div class="calendar-day">18</div> <!-- Day cell for the 18th of the month -->
+        <div class="calendar-day">19</div> <!-- Day cell for the 19th of the month -->
+        <div class="calendar-day">20</div> <!-- Day cell for the 20th of the month -->
+        <div class="calendar-day">21</div> <!-- Day cell for the 21st of the month -->
+        <div class="calendar-day">22</div> <!-- Day cell for the 22nd of the month -->
+        <div class="calendar-day">23</div> <!-- Day cell for the 23rd of the month -->
+        <div class="calendar-day">24</div> <!-- Day cell for the 24th of the month -->
+        <div class="calendar-day">25</div> <!-- Day cell for the 25th of the month -->
+        <div class="calendar-day today">26</div> <!-- Day cell for the 26th of the month (highlighted as today) -->
+        <div class="calendar-day">27</div> <!-- Day cell for the 27th of the month -->
+        <div class="calendar-day">28</div> <!-- Day cell for the 28th of the month -->
+        <div class="calendar-day">29</div> <!-- Day cell for the 29th of the month -->
+        <div class="calendar-day">30</div> <!-- Day cell for the 30th of the month -->
+        <div class="calendar-day">31</div> <!-- Day cell for the last day of the month -->
+        <div class="calendar-day inactive">1</div> <!-- Day cell for the 1st of the next month (inactive) -->
+    </div>
+
+    <footer> <!-- Defines the footer section of the webpage -->
+        <p>&copy; 2025 Calendar App</p> <!-- Copyright notice for the calendar app -->
+    </footer>
+
+    <script> <!-- Starts the JavaScript section -->
+        document.getElementById('prev-month').addEventListener('click', () => { // Adds click event listener to the previous month button
+            // Add month navigation logic here // Placeholder for month navigation logic
+        });
+
+        document.getElementById('next-month').addEventListener('click', () => { // Adds click event listener to the next month button
+            // Add month navigation logic here // Placeholder for month navigation logic
+        });
+    </script>
+</body>
+</html>
